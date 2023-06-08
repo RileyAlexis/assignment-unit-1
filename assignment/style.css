@@ -1,5 +1,57 @@
 /* Give your page a fun background color */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
 
+.container {
+    display:flex;
+    background-color: #2e2e2e;
+    min-height: 100vh;
+    justify-content: center;
+    }
+
+.conbox {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    flex:auto;
+    max-height:auto;
+    max-width:45%;
+    background-color: #5c3700;
+}
+
+footer {
+    color: #70614a;
+    font-size: 1em;
+    
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    
+}
+
+h1 {
+    color: #5a5a5a;
+    font-size: 2.5em;
+}
+
+p {
+    font-style: italic;
+    color:lightgray;
+}
+
+img {
+    object-fit: contain;
+    border: 2px solid black;
+    width:75%;
+    height:auto;
+    
+}
 /* Make the header and footer a different color from the background */
 
 /* Align the h1 containing your name in the center of the header*/
