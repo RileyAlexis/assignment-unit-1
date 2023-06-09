@@ -1,7 +1,9 @@
 /* Give your page a fun background color */
-body {
+html, body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -25,8 +27,11 @@ body {
 
 footer {
     color: #70614a;
-    font-size: 1em;
-    
+    font-size: 1em;   
+}
+
+footer:hover {
+    transform: scale(1.2, 1.2);
 }
 
 ul {
@@ -35,9 +40,19 @@ ul {
     
 }
 
-h1 {
+li:hover {
+    transform: scale(1.2, 1.2);
+}
+
+#name {
     color: #5a5a5a;
     font-size: 2.5em;
+    transition: width 0.5s height 0.5s ease-in-out; 
+}
+
+#name:hover {
+    transform: scale(1.2,1.2); 
+    color: red;
 }
 
 p {
@@ -52,6 +67,11 @@ img {
     height:auto;
     
 }
+
+img:hover {
+    transform: scale(1.2,1.2);
+}
+
 /* Make the header and footer a different color from the background */
 
 /* Align the h1 containing your name in the center of the header*/
